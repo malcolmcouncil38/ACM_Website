@@ -6,3 +6,5 @@ from .models import *
 import requests
 import json
 
+def home(request):
+  return render(request, 'home.html', {})
