@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rowan ACM</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      </head>
+          
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{% url '' %}"">
+            <img src="acm_logo.png" alt="" width="40" height="30" class="d-inline-block align-text-top">
+            ACM
+            </a>
+        
+        <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+            <li class="nav-item">
+            <a class="nav-link" href="#">Attendence</a>
+            <li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Announcements</a>
+            <li> 
+            <div class="dropdown">
+                <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Commitees
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Web-Dev Commitee</a>
+                  <a class="dropdown-item" href="#">Robotics Commitee</a>
+                  <a class="dropdown-item" href="#">Game-Dev Commitee</a>
+                </div>
+              </div>
+              </li>
+            </ul>
+          <!--   <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+        </div>
+        
+        
+      
+    </nav>
+    
+    <div class ="text-center"> 
+      <img src = "logo_footer_acm.png" class="img_fluid" alt = "Responsive image">
+    </div>
+    
+  </html>
